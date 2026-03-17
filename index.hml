@@ -1,0 +1,30 @@
+Copy code
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Shepoo Global</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <h1>Shepoo Global</h1>
+  <p data-i18n="slogan">نسبة من أرباحنا لفقراء وكادحي الأرض</p>
+  <nav>
+    <a href="index.html" data-i18n="home">الرئيسية</a>
+    <a href="store.html" data-i18n="store">المتجر</a>
+    <a href="about.html" data-i18n="about">من نحن</a>
+    <a href="partners.html" data-i18n="partners">شركاؤنا</a>
+    <a href="contact.html" data-i18n="contact">تواصل معنا</a>
+  </nav>
+  <button id="lang-toggle">English</button>
+</header>
+<main>
+  <h2 data-i18n="welcome">مرحبًا بك في متجر Shepoo العالمي</h2>
+</main>
+<footer>
+  <p data-i18n="footer">© 2026 Shepoo Global</p>
+</footer>
+<script src="js/lang.js"></script>
+</body>
+</html>
